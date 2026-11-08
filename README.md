@@ -97,3 +97,18 @@ A typical project can include a written philosophy, a JavaScript generator, and 
 - The artwork remains performant.
 - Exported files render correctly.
 - The final composition has been visually reviewed.
+
+
+## Supporting Resources
+
+| File | Purpose |
+|---|---|
+| [Algorithmic philosophy brief](resources/algorithmic-philosophy-brief.md) | Shape the generative concept and translate it into computational rules. |
+| [Seed reproducibility checklist](resources/seed-reproducibility-checklist.md) | Verify deterministic output, parameter state, and export behavior. |
+| [Artwork quality review](resources/artwork-quality-review.md) | Review originality, composition, performance, viewer controls, and exports. |
+
+The existing templates/generator_template.js and templates/viewer.html are retained unchanged. The viewer is the starting point for the skill's interactive artifact workflow. The new resources complement those templates; they do not replace them.
+
+## Upstream source and license
+
+The unchanged SKILL.md points to upstream LICENSE.txt, and the AITMPL source identifies the complete upstream terms as Apache 2.0. The repository keeps the single root LICENSE file requested here. That root MIT file does not override the upstream license terms for the copied skill and template content. Check the upstream terms before redistribution.
